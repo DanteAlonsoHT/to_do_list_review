@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #efefef;
+}
+
+main {
+  min-width: 300px;
+  max-width: 720px;
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 16px;
+  color: #555;
+}
+
+i {
+  opacity: 60%;
+  transform: scale(1.5);
+}
+
+i:hover,
+#complete-checkbox:hover {
+  opacity: 100%;
+}
+
+.button-move:hover {
+  cursor: all-scroll;
+}
+
+input:focus {
+  outline: none;
+}
+
+#button-clear {
+  letter-spacing: 0.75px;
+}
+
+#button-clear:hover {
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+.edit-name {
+  display: none;
+}
