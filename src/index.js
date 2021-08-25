@@ -2,8 +2,7 @@ import { Methods } from './checkbox';
 import {
   updateCheckBoxStatus, deleteTask, editTask, clearFinishedTasks,
 } from './crud';
-/* eslint-disable-next-line */
-import style from './style.css';
+import './style.css';
 
 const buttonAddTask = document.getElementById('button-add-task');
 
